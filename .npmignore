@@ -1,5 +1,2 @@
-.vscode
 src
-.editorconfig
-.eslintrc.json
 tsconfig.json
