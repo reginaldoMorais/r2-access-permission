@@ -1,12 +1,9 @@
 {
   "name": "r2-access-permission",
-  "version": "0.0.2",
+  "version": "0.0.7",
   "description": "React library to redirect or render some component if the user has access to it",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "./dist"
-  ],
   "scripts": {
     "clean": "rm -Rf dist",
     "build": "npm run clean && tsc --skipLibCheck -p ."
