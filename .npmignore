@@ -4,3 +4,4 @@ src
 .eslintrc.json
 tsconfig.json
 .prettierrc
+CHANGELOG.md
