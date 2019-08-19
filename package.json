@@ -1,0 +1,44 @@
+{
+  "name": "r2-access-permission",
+  "version": "0.0.2",
+  "description": "React library to redirect or render some component if the user has access to it",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "clean": "rm -Rf dist",
+    "build": "npm run clean && tsc --skipLibCheck -p ."
+  },
+  "keywords": [
+    "react",
+    "react-router-dom",
+    "typescript"
+  ],
+  "author": "reginaldoMorais <reginaldo.cmorais@gmail.com>",
+  "repository": "https://github.com/reginaldoMorais/r2-access-permission.git",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.6.0",
+    "react-router-dom": "^5.0.1"
+  },
+  "peerDependencies": {
+    "react": "16.x",
+    "react-dom": "16.x",
+    "react-router-dom": "5.x"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.8.5",
+    "@types/react-router-dom": "^4.3.4",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.3"
+  }
+}
