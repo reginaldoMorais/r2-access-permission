@@ -1,6 +1,6 @@
 {
   "name": "r2-access-permission",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "React library to redirect or render some component if the user has access to it",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
