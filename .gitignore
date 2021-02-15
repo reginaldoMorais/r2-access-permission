@@ -1,6 +1,7 @@
 # DIR
 node_modules/
 dist/
+coverage/
 
 # FILE
 *.log
