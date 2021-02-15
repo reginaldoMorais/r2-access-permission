@@ -1,6 +1,6 @@
 {
   "name": "r2-access-permission",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React library to redirect or render some component if the user has access to it",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,20 +22,20 @@
     "react-router-dom": "^5.0.1"
   },
   "peerDependencies": {
-    "react": "16.x",
-    "react-dom": "16.x",
+    "react": "17.x",
+    "react-dom": "17.x",
     "react-router-dom": "5.x"
   },
   "devDependencies": {
-    "@types/react": "^16.9.2",
-    "@types/react-dom": "^16.8.5",
-    "@types/react-router-dom": "^4.3.4",
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3",
-    "prettier": "^1.18.2",
-    "typescript": "^3.5.3"
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/react-router-dom": "^5.1.7",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.5"
   }
 }
