@@ -1,8 +1,8 @@
 import { ReactNode } from 'react';
 
 export interface IPermissionRedirectProps {
-  authorities: [string];
+  authorities: string[];
   authority: string;
-  redirect: string;
+  redirect?: string;
   children?: ReactNode;
 }

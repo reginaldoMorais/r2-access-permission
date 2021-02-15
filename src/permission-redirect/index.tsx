@@ -2,12 +2,12 @@ import React from 'react';
 import { IPermissionRedirectProps } from './types';
 import { Switch, Redirect } from 'react-router-dom';
 
-export default ({
-  authorities = [''],
-  authority = '',
+const PermissionRedirect = ({
+  authorities,
+  authority,
   redirect = '/',
   children
-}: IPermissionRedirectProps) => {
+}: IPermissionRedirectProps): any => {
   if (authorities.includes(authority)) {
     return children;
   }
@@ -18,3 +18,5 @@ export default ({
     </Switch>
   );
 };
+
+export default PermissionRedirect;
